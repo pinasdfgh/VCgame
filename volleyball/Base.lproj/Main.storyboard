@@ -1,20 +1,146 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="xUy-yA-xZR">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--GameVC-->
+        <scene sceneID="6xf-hY-heZ">
+            <objects>
+                <viewController storyboardIdentifier="gamevc" id="xUy-yA-xZR" customClass="gameVC" customModule="volleyball" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="log-PV-ZkB"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yjj-cj-Lmc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GBZ-zf-Zgg">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AzN-J8-Keb" customClass="gameUIV" customModule="volleyball" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="volleyball1.png" translatesAutoresizingMaskIntoConstraints="NO" id="r9w-vX-yI9">
+                                        <rect key="frame" x="469" y="95" width="49" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ff369.png" translatesAutoresizingMaskIntoConstraints="NO" id="N49-bC-TYs">
+                                        <rect key="frame" x="8" y="8" width="66.5" height="75"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ff064.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rjh-2g-9dK">
+                                        <rect key="frame" x="592.5" y="8" width="66.5" height="75"/>
+                                    </imageView>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="nuR-dH-MCe">
+                                        <rect key="frame" x="75" y="18" width="200" height="4"/>
+                                    </progressView>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="q7z-Ot-wSY">
+                                        <rect key="frame" x="75" y="37" width="133.5" height="4"/>
+                                    </progressView>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="iaG-TB-7Lc">
+                                        <rect key="frame" x="392" y="18" width="200" height="4"/>
+                                    </progressView>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="XXf-bx-dET">
+                                        <rect key="frame" x="458.5" y="37" width="133.5" height="4"/>
+                                    </progressView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vbwang1.png" translatesAutoresizingMaskIntoConstraints="NO" id="AIZ-c8-YW4">
+                                        <rect key="frame" x="299.5" y="217" width="67" height="150"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="XXf-bx-dET" firstAttribute="height" secondItem="q7z-Ot-wSY" secondAttribute="height" id="29a-v0-XNd"/>
+                                    <constraint firstItem="XXf-bx-dET" firstAttribute="width" secondItem="q7z-Ot-wSY" secondAttribute="width" id="6s7-mi-cT1"/>
+                                    <constraint firstItem="AIZ-c8-YW4" firstAttribute="height" secondItem="AzN-J8-Keb" secondAttribute="height" multiplier="0.4" id="7ge-Qw-vnm"/>
+                                    <constraint firstAttribute="trailing" secondItem="iaG-TB-7Lc" secondAttribute="trailing" constant="75" id="8jk-vT-tn2"/>
+                                    <constraint firstItem="iaG-TB-7Lc" firstAttribute="height" secondItem="nuR-dH-MCe" secondAttribute="height" id="9jX-g1-1eP"/>
+                                    <constraint firstItem="q7z-Ot-wSY" firstAttribute="width" secondItem="AzN-J8-Keb" secondAttribute="width" multiplier="0.2" id="D89-DV-2RB"/>
+                                    <constraint firstItem="Rjh-2g-9dK" firstAttribute="top" secondItem="AzN-J8-Keb" secondAttribute="top" constant="8" id="Fbf-b4-gdr"/>
+                                    <constraint firstItem="N49-bC-TYs" firstAttribute="height" secondItem="AzN-J8-Keb" secondAttribute="height" multiplier="0.2" id="GK5-aB-hgL"/>
+                                    <constraint firstItem="q7z-Ot-wSY" firstAttribute="height" secondItem="AzN-J8-Keb" secondAttribute="height" multiplier="0.01" id="IAf-3N-ptC"/>
+                                    <constraint firstItem="nuR-dH-MCe" firstAttribute="top" secondItem="AzN-J8-Keb" secondAttribute="top" constant="18" id="KuN-i9-9UQ"/>
+                                    <constraint firstItem="N49-bC-TYs" firstAttribute="leading" secondItem="AzN-J8-Keb" secondAttribute="leading" constant="8" id="NCH-Gh-C5X"/>
+                                    <constraint firstItem="iaG-TB-7Lc" firstAttribute="top" secondItem="AzN-J8-Keb" secondAttribute="top" constant="18" id="P5g-3o-VB5"/>
+                                    <constraint firstItem="nuR-dH-MCe" firstAttribute="width" secondItem="AzN-J8-Keb" secondAttribute="width" multiplier="0.3" id="T9D-Ho-XAH"/>
+                                    <constraint firstItem="nuR-dH-MCe" firstAttribute="leading" secondItem="AzN-J8-Keb" secondAttribute="leading" constant="75" id="TEm-6G-YAL"/>
+                                    <constraint firstItem="N49-bC-TYs" firstAttribute="width" secondItem="AzN-J8-Keb" secondAttribute="width" multiplier="0.1" id="ThR-7A-Vj5"/>
+                                    <constraint firstItem="AIZ-c8-YW4" firstAttribute="centerX" secondItem="AzN-J8-Keb" secondAttribute="centerX" id="WCk-Rc-tqS"/>
+                                    <constraint firstItem="Rjh-2g-9dK" firstAttribute="width" secondItem="AzN-J8-Keb" secondAttribute="width" multiplier="0.1" id="XTo-jB-lti"/>
+                                    <constraint firstAttribute="trailing" secondItem="iaG-TB-7Lc" secondAttribute="trailing" constant="75" id="YKj-Qn-2JV"/>
+                                    <constraint firstAttribute="trailing" secondItem="Rjh-2g-9dK" secondAttribute="trailing" constant="8" id="aSy-ib-fKZ"/>
+                                    <constraint firstItem="Rjh-2g-9dK" firstAttribute="height" secondItem="AzN-J8-Keb" secondAttribute="height" multiplier="0.2" id="bK4-F6-kDj"/>
+                                    <constraint firstAttribute="trailing" secondItem="XXf-bx-dET" secondAttribute="trailing" constant="75" id="d8a-CM-ld1"/>
+                                    <constraint firstItem="N49-bC-TYs" firstAttribute="top" secondItem="AzN-J8-Keb" secondAttribute="top" constant="8" id="hN7-Fm-vmO"/>
+                                    <constraint firstItem="q7z-Ot-wSY" firstAttribute="leading" secondItem="AzN-J8-Keb" secondAttribute="leading" constant="75" id="iUZ-06-ZNA"/>
+                                    <constraint firstItem="q7z-Ot-wSY" firstAttribute="top" secondItem="AzN-J8-Keb" secondAttribute="top" constant="37" id="ifh-Hl-Ngy"/>
+                                    <constraint firstItem="AIZ-c8-YW4" firstAttribute="width" secondItem="AzN-J8-Keb" secondAttribute="width" multiplier="0.1" id="oKT-Nj-7Wk"/>
+                                    <constraint firstItem="iaG-TB-7Lc" firstAttribute="height" secondItem="q7z-Ot-wSY" secondAttribute="height" id="ri4-Bv-nFF"/>
+                                    <constraint firstItem="nuR-dH-MCe" firstAttribute="height" secondItem="AzN-J8-Keb" secondAttribute="height" multiplier="0.01" id="s1s-0Z-fLY"/>
+                                    <constraint firstItem="XXf-bx-dET" firstAttribute="top" secondItem="AzN-J8-Keb" secondAttribute="top" constant="37" id="uIb-ET-iIU"/>
+                                    <constraint firstAttribute="bottom" secondItem="AIZ-c8-YW4" secondAttribute="bottom" constant="8" id="vq7-Ok-mxX"/>
+                                    <constraint firstItem="iaG-TB-7Lc" firstAttribute="width" secondItem="nuR-dH-MCe" secondAttribute="width" id="wp8-hX-bI7"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AzN-J8-Keb" firstAttribute="centerY" secondItem="GBZ-zf-Zgg" secondAttribute="centerY" id="2bX-Fs-NKB"/>
+                            <constraint firstItem="AzN-J8-Keb" firstAttribute="width" secondItem="GBZ-zf-Zgg" secondAttribute="width" id="5zw-ks-FYu"/>
+                            <constraint firstItem="AzN-J8-Keb" firstAttribute="height" secondItem="GBZ-zf-Zgg" secondAttribute="height" id="dna-fV-zMa"/>
+                            <constraint firstItem="AzN-J8-Keb" firstAttribute="centerX" secondItem="GBZ-zf-Zgg" secondAttribute="centerX" id="vEi-73-UTc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="gameUIV" destination="AzN-J8-Keb" id="Xsd-1z-dTW"/>
+                        <outlet property="vball" destination="r9w-vX-yI9" id="CP6-Pm-BdW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KAL-XE-xkv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116.49175412293854" y="845.60000000000002"/>
+        </scene>
+        <!--Testvc-->
+        <scene sceneID="uX3-EB-YKm">
+            <objects>
+                <viewController id="70W-90-uXd" customClass="testvc" customModule="volleyball" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ltW-2d-jYc"/>
+                        <viewControllerLayoutGuide type="bottom" id="eIa-Zk-rwJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ks9-ff-Wb4">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="Tpy-4c-PVo">
+                                <rect key="frame" x="359" y="152" width="94" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stepper>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QL6-yb-uqe">
+                                <rect key="frame" x="37" y="165" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r5p-V8-Gpf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117" y="1531"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="volleyball" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -23,4 +149,10 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="ff064.png" width="313" height="313"/>
+        <image name="ff369.png" width="313" height="313"/>
+        <image name="vbwang1.png" width="613" height="640"/>
+        <image name="volleyball1.png" width="638" height="640"/>
+    </resources>
 </document>

@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001529F61F0D415E006BD0B6 /* volleyball.svg in Resources */ = {isa = PBXBuildFile; fileRef = 001529F51F0D415E006BD0B6 /* volleyball.svg */; };
+		001529F81F0D473F006BD0B6 /* testvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001529F71F0D473F006BD0B6 /* testvc.swift */; };
 		006F3C141F0BE6A5001C8092 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006F3C131F0BE6A5001C8092 /* AppDelegate.swift */; };
 		006F3C161F0BE6A5001C8092 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006F3C151F0BE6A5001C8092 /* ViewController.swift */; };
 		006F3C191F0BE6A5001C8092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006F3C171F0BE6A5001C8092 /* Main.storyboard */; };
 		006F3C1B1F0BE6A5001C8092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 006F3C1A1F0BE6A5001C8092 /* Assets.xcassets */; };
 		006F3C1E1F0BE6A5001C8092 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006F3C1C1F0BE6A5001C8092 /* LaunchScreen.storyboard */; };
+		006F3C261F0BE9DE001C8092 /* gameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006F3C251F0BE9DE001C8092 /* gameVC.swift */; };
+		006F3C281F0BF223001C8092 /* gameUIV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006F3C271F0BF223001C8092 /* gameUIV.swift */; };
+		006F3C2C1F0BF57C001C8092 /* vbwang1.png in Resources */ = {isa = PBXBuildFile; fileRef = 006F3C2A1F0BF57C001C8092 /* vbwang1.png */; };
+		006F3C2D1F0BF57C001C8092 /* volleyball1.png in Resources */ = {isa = PBXBuildFile; fileRef = 006F3C2B1F0BF57C001C8092 /* volleyball1.png */; };
+		006F3C311F0BF60D001C8092 /* f369.png in Resources */ = {isa = PBXBuildFile; fileRef = 006F3C301F0BF60D001C8092 /* f369.png */; };
+		006F3C331F0BF651001C8092 /* f064.png in Resources */ = {isa = PBXBuildFile; fileRef = 006F3C321F0BF651001C8092 /* f064.png */; };
+		006F3C361F0C02AC001C8092 /* ff064.png in Resources */ = {isa = PBXBuildFile; fileRef = 006F3C341F0C02AC001C8092 /* ff064.png */; };
+		006F3C371F0C02AC001C8092 /* ff369.png in Resources */ = {isa = PBXBuildFile; fileRef = 006F3C351F0C02AC001C8092 /* ff369.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		001529F51F0D415E006BD0B6 /* volleyball.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = volleyball.svg; path = "../../../Downloads/CC創用/可商用/volleyball.svg"; sourceTree = "<group>"; };
+		001529F71F0D473F006BD0B6 /* testvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testvc.swift; sourceTree = "<group>"; };
 		006F3C101F0BE6A5001C8092 /* volleyball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = volleyball.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		006F3C131F0BE6A5001C8092 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		006F3C151F0BE6A5001C8092 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,14 @@
 		006F3C1A1F0BE6A5001C8092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		006F3C1D1F0BE6A5001C8092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		006F3C1F1F0BE6A5001C8092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		006F3C251F0BE9DE001C8092 /* gameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gameVC.swift; sourceTree = "<group>"; };
+		006F3C271F0BF223001C8092 /* gameUIV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gameUIV.swift; sourceTree = "<group>"; };
+		006F3C2A1F0BF57C001C8092 /* vbwang1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vbwang1.png; path = "../../../Downloads/CC創用/可商用/vbwang1.png"; sourceTree = "<group>"; };
+		006F3C2B1F0BF57C001C8092 /* volleyball1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = volleyball1.png; path = "../../../Downloads/CC創用/可商用/volleyball1.png"; sourceTree = "<group>"; };
+		006F3C301F0BF60D001C8092 /* f369.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = f369.png; path = "../../../Downloads/CC創用/可商用/jewel-s-free101j/image/card/f369.png"; sourceTree = "<group>"; };
+		006F3C321F0BF651001C8092 /* f064.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = f064.png; path = "../../../Downloads/CC創用/可商用/jewel-s-free101j/image/card/f064.png"; sourceTree = "<group>"; };
+		006F3C341F0C02AC001C8092 /* ff064.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ff064.png; path = "../../../Downloads/CC創用/可商用/jewel-s-free101j/image/icon/ff064.png"; sourceTree = "<group>"; };
+		006F3C351F0C02AC001C8092 /* ff369.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ff369.png; path = "../../../Downloads/CC創用/可商用/jewel-s-free101j/image/icon/ff369.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +74,32 @@
 		006F3C121F0BE6A5001C8092 /* volleyball */ = {
 			isa = PBXGroup;
 			children = (
+				006F3C291F0BF54F001C8092 /* imgs */,
 				006F3C131F0BE6A5001C8092 /* AppDelegate.swift */,
 				006F3C151F0BE6A5001C8092 /* ViewController.swift */,
 				006F3C171F0BE6A5001C8092 /* Main.storyboard */,
 				006F3C1A1F0BE6A5001C8092 /* Assets.xcassets */,
 				006F3C1C1F0BE6A5001C8092 /* LaunchScreen.storyboard */,
 				006F3C1F1F0BE6A5001C8092 /* Info.plist */,
+				006F3C251F0BE9DE001C8092 /* gameVC.swift */,
+				006F3C271F0BF223001C8092 /* gameUIV.swift */,
+				001529F71F0D473F006BD0B6 /* testvc.swift */,
 			);
 			path = volleyball;
+			sourceTree = "<group>";
+		};
+		006F3C291F0BF54F001C8092 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				001529F51F0D415E006BD0B6 /* volleyball.svg */,
+				006F3C341F0C02AC001C8092 /* ff064.png */,
+				006F3C351F0C02AC001C8092 /* ff369.png */,
+				006F3C321F0BF651001C8092 /* f064.png */,
+				006F3C301F0BF60D001C8092 /* f369.png */,
+				006F3C2A1F0BF57C001C8092 /* vbwang1.png */,
+				006F3C2B1F0BF57C001C8092 /* volleyball1.png */,
+			);
+			name = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +162,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				006F3C2C1F0BF57C001C8092 /* vbwang1.png in Resources */,
 				006F3C1E1F0BE6A5001C8092 /* LaunchScreen.storyboard in Resources */,
+				006F3C361F0C02AC001C8092 /* ff064.png in Resources */,
+				006F3C371F0C02AC001C8092 /* ff369.png in Resources */,
+				006F3C331F0BF651001C8092 /* f064.png in Resources */,
 				006F3C1B1F0BE6A5001C8092 /* Assets.xcassets in Resources */,
 				006F3C191F0BE6A5001C8092 /* Main.storyboard in Resources */,
+				006F3C2D1F0BF57C001C8092 /* volleyball1.png in Resources */,
+				001529F61F0D415E006BD0B6 /* volleyball.svg in Resources */,
+				006F3C311F0BF60D001C8092 /* f369.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +184,9 @@
 			files = (
 				006F3C161F0BE6A5001C8092 /* ViewController.swift in Sources */,
 				006F3C141F0BE6A5001C8092 /* AppDelegate.swift in Sources */,
+				001529F81F0D473F006BD0B6 /* testvc.swift in Sources */,
+				006F3C281F0BF223001C8092 /* gameUIV.swift in Sources */,
+				006F3C261F0BE9DE001C8092 /* gameVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -250,7 +298,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -304,6 +352,7 @@
 				006F3C241F0BE6A5001C8092 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
